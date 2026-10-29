@@ -252,6 +252,9 @@
   .top-\[7px\] {
     top: 7px;
   }
+  .top-\[calc\(max\(100svh\,620px\)-1\.75rem\)\] {
+    top: calc(max(100svh, 620px) - 1.75rem);
+  }
   .right-0 {
     right: 0px;
   }
@@ -2268,6 +2271,12 @@
     .max-md\:h-\[66\%\] {
       height: 66%;
     }
+    .max-md\:h-\[100lvh\] {
+      height: 100lvh;
+    }
+    .max-md\:h-\[max\(100svh\,620px\)\] {
+      height: max(100svh, 620px);
+    }
     .max-md\:max-h-0 {
       max-height: 0px;
     }
@@ -2342,6 +2351,9 @@
     }
     .md\:top-\[9px\] {
       top: 9px;
+    }
+    .md\:top-auto {
+      top: auto;
     }
     .md\:right-0 {
       right: 0px;
