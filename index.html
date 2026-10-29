@@ -1,0 +1,35 @@
+<!doctype html><html lang="es"><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style><title>Panadería El Progreso</title>
+<meta name="description" content="Panadería y repostería tradicional en Logroño: pan, rosquillas caseras, bollería y repostería de elaboración propia.">
+<meta name="theme-color" content="#291b14">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Mono:wght@400&family=Manrope:wght@300;400;500;600&display=swap">
+<link rel="stylesheet" href="app.css">
+<link rel="preload" as="image" href="images/portada-horno-1280.webp" imagesrcset="images/portada-horno-1280.webp 1280w, images/portada-horno.webp 1920w" imagesizes="(max-width: 767px) 190vw, 86vw" fetchpriority="high">
+<style>
+  :root { color-scheme: dark; }
+  html, body { background: #291b14; }
+</style>
+</head><body>
+<a href="#contenido" class="sr-only focus:not-sr-only">Saltar al contenido</a>
+<style>
+#cargando{position:fixed;inset:0;z-index:300;display:grid;place-items:center;background:#291b14;transition:opacity .45s ease,visibility .45s;animation:cargando-fuera .45s ease 3.2s forwards}
+#cargando.fuera{opacity:0;visibility:hidden}
+#cargando .c-in{display:flex;flex-direction:column;align-items:center;gap:14px}
+#cargando svg{width:46px;height:46px;color:#c99a63;animation:cargando-gira 2.4s linear infinite}
+#cargando p{margin:0;font:400 11px/1 "DM Mono",ui-monospace,monospace;letter-spacing:.32em;color:rgba(242,230,211,.55)}
+@keyframes cargando-gira{to{transform:rotate(360deg)}}
+@keyframes cargando-fuera{to{opacity:0;visibility:hidden}}
+@media (prefers-reduced-motion:reduce){#cargando svg{animation:none}}
+</style>
+<div id="cargando" aria-hidden="true"><div class="c-in">
+<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="24" cy="24" r="17"/><path d="M15 17c4 3 4 9 0 14M22 13c4 4 4 18 0 22M29 14c4 4 4 16 0 20"/></svg>
+<p>EL PROGRESO</p></div></div>
+<script>(function(){var d=document.getElementById("cargando");if(!d)return;var t0=Date.now(),hecho=false;
+function fuera(){if(hecho)return;hecho=true;d.className="fuera";setTimeout(function(){d.style.display="none"},500)}
+function listo(){var r=document.getElementById("root");if(r&&!r.firstChild)return false;var h=document.querySelector("img.hero-photo");if(h)return h.complete&&h.naturalWidth>0;return document.readyState==="complete"}
+(function mira(){if(hecho)return;if(Date.now()-t0>2500||listo())return fuera();setTimeout(mira,80)})();})();</script>
+<div id="root" style="position:relative;z-index:1"></div>
+<script src="app.js" defer></script>
+
+</body></html>
