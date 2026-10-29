@@ -252,9 +252,6 @@
   .top-\[7px\] {
     top: 7px;
   }
-  .top-\[calc\(max\(100svh\,620px\)-1\.75rem\)\] {
-    top: calc(max(100svh, 620px) - 1.75rem);
-  }
   .right-0 {
     right: 0px;
   }
@@ -287,9 +284,6 @@
   }
   .bottom-0 {
     bottom: 0px;
-  }
-  .bottom-3 {
-    bottom: calc(var(--spacing) * 3);
   }
   .bottom-4 {
     bottom: calc(var(--spacing) * 4);
@@ -1119,9 +1113,6 @@
   .bg-\[\#fff6e6\] {
     background-color: #fff6e6;
   }
-  .bg-\[rgba\(20\,12\,8\,0\.45\)\] {
-    background-color: rgba(20,12,8,0.45);
-  }
   .bg-caramelo {
     background-color: var(--color-caramelo);
   }
@@ -1369,9 +1360,6 @@
   .px-1\.5 {
     padding-inline: calc(var(--spacing) * 1.5);
   }
-  .px-2\.5 {
-    padding-inline: calc(var(--spacing) * 2.5);
-  }
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
   }
@@ -1519,9 +1507,6 @@
   }
   .\!text-\[0\.85rem\] {
     font-size: 0.85rem !important;
-  }
-  .text-\[0\.6rem\] {
-    font-size: 0.6rem;
   }
   .text-\[0\.8rem\] {
     font-size: 0.8rem;
@@ -1806,12 +1791,6 @@
   }
   .text-marfil {
     color: var(--color-marfil);
-  }
-  .text-marfil\/55 {
-    color: color-mix(in srgb, #fff9f0 55%, transparent);
-    @supports (color: color-mix(in lab, red, red)) {
-      color: color-mix(in oklab, var(--color-marfil) 55%, transparent);
-    }
   }
   .text-marfil\/85 {
     color: color-mix(in srgb, #fff9f0 85%, transparent);
@@ -2343,17 +2322,8 @@
     .md\:top-\[9px\] {
       top: 9px;
     }
-    .md\:top-auto {
-      top: auto;
-    }
     .md\:right-0 {
       right: 0px;
-    }
-    .md\:right-8 {
-      right: calc(var(--spacing) * 8);
-    }
-    .md\:bottom-5 {
-      bottom: calc(var(--spacing) * 5);
     }
     .md\:bottom-8 {
       bottom: calc(var(--spacing) * 8);
