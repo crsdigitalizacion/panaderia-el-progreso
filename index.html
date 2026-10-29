@@ -4,7 +4,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Mono:wght@400&family=Manrope:wght@300;400;500;600&display=swap">
-<link rel="stylesheet" href="app.css?v=mvtfyjkb">
+<link rel="stylesheet" href="app.css?v=mvthph80">
 <link rel="preload" as="image" href="images/portada-horno-1280.webp" imagesrcset="images/portada-horno-1280.webp 1280w, images/portada-horno.webp 1920w" imagesizes="(max-width: 767px) 190vw, 86vw" fetchpriority="high">
 <style>
   :root { color-scheme: dark; }
@@ -29,6 +29,7 @@ function fuera(){if(hecho)return;hecho=true;d.className="fuera";setTimeout(funct
 function listo(){var r=document.getElementById("root");if(r&&!r.firstChild)return false;var h=document.querySelector("img.hero-photo");if(h)return h.complete&&h.naturalWidth>0;return document.readyState==="complete"}
 (function mira(){if(hecho)return;if(Date.now()-t0>2500||listo())return fuera();setTimeout(mira,80)})();})();</script>
 <div id="root" style="position:relative;z-index:1"></div>
-<script src="app.js?v=mvtfyjkb" defer></script>
+<script src="app.js?v=mvthph80" defer></script>
+<script>(function(){var v="mvthph80";try{fetch("version.txt?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.text():null}).then(function(t){t=t&&t.trim();if(!t||t===v)return;var k="recarga-"+t;try{if(sessionStorage.getItem(k))return;sessionStorage.setItem(k,"1")}catch(e){return}location.reload()}).catch(function(){})}catch(e){}})();</script>
 
 </body></html>
