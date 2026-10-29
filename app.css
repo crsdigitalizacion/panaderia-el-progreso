@@ -1357,9 +1357,6 @@
   .\!px-12 {
     padding-inline: calc(var(--spacing) * 12) !important;
   }
-  .px-1\.5 {
-    padding-inline: calc(var(--spacing) * 1.5);
-  }
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
   }
@@ -1473,6 +1470,9 @@
   }
   .text-left {
     text-align: left;
+  }
+  .text-right {
+    text-align: right;
   }
   .font-mono {
     font-family: var(--font-mono);
@@ -1723,12 +1723,6 @@
   .text-caramelo-claro {
     color: var(--color-caramelo-claro);
   }
-  .text-caramelo\/60 {
-    color: color-mix(in srgb, #c99a63 60%, transparent);
-    @supports (color: color-mix(in lab, red, red)) {
-      color: color-mix(in oklab, var(--color-caramelo) 60%, transparent);
-    }
-  }
   .text-crema {
     color: var(--color-crema);
   }
@@ -1742,12 +1736,6 @@
     color: color-mix(in srgb, #f2e6d3 50%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
       color: color-mix(in oklab, var(--color-crema) 50%, transparent);
-    }
-  }
-  .text-crema\/55 {
-    color: color-mix(in srgb, #f2e6d3 55%, transparent);
-    @supports (color: color-mix(in lab, red, red)) {
-      color: color-mix(in oklab, var(--color-crema) 55%, transparent);
     }
   }
   .text-crema\/65 {
