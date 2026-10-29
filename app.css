@@ -2271,8 +2271,8 @@
     .max-md\:h-\[66\%\] {
       height: 66%;
     }
-    .max-md\:h-\[100lvh\] {
-      height: 100lvh;
+    .max-md\:h-\[calc\(100lvh\+6rem\)\] {
+      height: calc(100lvh + 6rem);
     }
     .max-md\:h-\[max\(100svh\,620px\)\] {
       height: max(100svh, 620px);
@@ -3140,13 +3140,13 @@
 }
 @media (max-width: 767px) {
   .hero-photo {
-    width: 200%;
-    left: -42%;
-    top: 21svh;
+    width: 228%;
+    left: -56%;
+    top: 6svh;
     bottom: auto;
-    -webkit-mask-image: linear-gradient(180deg, transparent 0%, #000 18%, #000 78%, transparent 100%);
+    -webkit-mask-image: linear-gradient(180deg, transparent 0%, #000 9%, #000 80%, transparent 100%);
     -webkit-mask-composite: source-over;
-    mask-image: linear-gradient(180deg, transparent 0%, #000 18%, #000 78%, transparent 100%);
+    mask-image: linear-gradient(180deg, transparent 0%, #000 9%, #000 80%, transparent 100%);
     mask-composite: add;
   }
 }
