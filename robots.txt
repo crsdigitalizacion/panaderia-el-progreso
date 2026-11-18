@@ -1,4 +1,4 @@
 User-Agent: *
 Allow: /
 
-Sitemap: https://crsdigitalizacion.github.io/panaderia-el-progreso/sitemap.xml
+Sitemap: https://panaderiaelprogreso.es/sitemap.xml

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://crsdigitalizacion.github.io/panaderia-el-progreso/</loc>
+<loc>https://panaderiaelprogreso.es/</loc>
 <changefreq>weekly</changefreq>
 <priority>1</priority>
 </url>
 <url>
-<loc>https://crsdigitalizacion.github.io/panaderia-el-progreso/productos/</loc>
+<loc>https://panaderiaelprogreso.es/productos/</loc>
 <changefreq>weekly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>https://crsdigitalizacion.github.io/panaderia-el-progreso/obrador/</loc>
+<loc>https://panaderiaelprogreso.es/obrador/</loc>
 <changefreq>weekly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
-<loc>https://crsdigitalizacion.github.io/panaderia-el-progreso/contacto/</loc>
+<loc>https://panaderiaelprogreso.es/contacto/</loc>
 <changefreq>weekly</changefreq>
 <priority>0.8</priority>
 </url>
